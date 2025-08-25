@@ -50,8 +50,7 @@ StarLinks is an interactive web portal where users can type commands like `/stud
 
 ---
 
-## **Screenshots / Demo**
-*Add screenshots or GIFs here to showcase the interactive portal.*
+
 
 ---
 
