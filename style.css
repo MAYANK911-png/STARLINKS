@@ -1,0 +1,326 @@
+/* ...existing code... */
+
+/* General Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(135deg, #181c24 0%, #232946 100%);
+  color: #e0e0e0;
+  line-height: 1.7;
+  min-height: 100vh;
+  letter-spacing: 0.01em;
+  /* Subtle background pattern */
+  background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='40' height='40' fill='rgba(255,255,255,0.01)'/%3E%3Ccircle cx='20' cy='20' r='1' fill='rgba(255,255,255,0.04)'/%3E%3C/svg%3E");
+}
+
+/* Navbar Styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: rgba(31,41,55,0.95);
+  box-shadow: 0 4px 24px rgba(0,0,0,0.35);
+  border-radius: 0 0 18px 18px;
+  backdrop-filter: blur(8px);
+}
+
+nav div:first-child {
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: #ffd600;
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  letter-spacing: 0.04em;
+  text-shadow: 0 2px 8px #ffd60033;
+}
+
+nav div:last-child a {
+  color: #cbd5e1;
+  margin-left: 1.3rem;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.08rem;
+  transition: color 0.25s, text-shadow 0.25s;
+  padding: 6px 12px;
+  border-radius: 8px;
+}
+
+nav div:last-child a:hover {
+  color: #121212;
+  background: #ffd600;
+  text-shadow: 0 2px 8px #ffd60044;
+  text-decoration: none;
+}
+
+/* Center main container */
+main {
+  max-width: 740px;
+  margin: 2.5rem auto;
+  padding: 0 1.2rem;
+  text-align: center;
+  background: rgba(26,31,42,0.85);
+  border-radius: 18px;
+  box-shadow: 0 8px 32px 0 rgba(31,41,55,0.18);
+  backdrop-filter: blur(4px);
+}
+
+/* Header Section */
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.3rem;
+  font-weight: 700;
+  color: #ffd600;
+  letter-spacing: 0.03em;
+  text-shadow: 0 2px 12px #ffd60033;
+}
+
+header p {
+  font-size: 1.13rem;
+  color: #bdbdbd;
+  margin-bottom: 2rem;
+  font-weight: 400;
+}
+
+/* Command Input Section */
+section.command-box {
+  margin-bottom: 2.2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  position: relative;
+}
+
+#commandInput {
+  width: 70%;
+  max-width: 340px;
+  padding: 14px 20px;
+  font-size: 1.08rem;
+  border-radius: 32px;
+  border: none;
+  background: rgba(31,41,55,0.92);
+  color: #e0e0e0;
+  box-shadow: 0 2px 12px #2d374855, 0 1.5px 0 #ffd60022 inset;
+  outline: none;
+  transition: background 0.3s, box-shadow 0.3s;
+  backdrop-filter: blur(2px);
+}
+
+#commandInput::placeholder {
+  color: #7b7b8a;
+  letter-spacing: 0.04em;
+}
+
+#commandInput:focus {
+  background: #232946;
+  box-shadow: 0 4px 18px #ffd60033, 0 1.5px 0 #ffd60044 inset;
+}
+
+/* Button next to input */
+button {
+  padding: 13px 26px;
+  font-size: 1.08rem;
+  border-radius: 32px;
+  border: none;
+  background: linear-gradient(90deg, #ffd600 60%, #ffe066 100%);
+  color: #121212;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 4px 18px #ffd60055;
+  transition: background 0.25s, transform 0.18s, box-shadow 0.18s;
+  letter-spacing: 0.02em;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #ffe066 0%, #ffd600 100%);
+  transform: translateY(-2px) scale(1.04);
+  box-shadow: 0 8px 24px #ffd60077;
+}
+
+/* Commands hint grid */
+section.commands-hint h2 {
+  color: #ffd600;
+  margin-bottom: 14px;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  text-shadow: 0 2px 8px #ffd60022;
+}
+
+.cmd-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  justify-content: center;
+}
+
+.cmd-grid span {
+  background: rgba(31,41,55,0.92);
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: 700;
+  color: #cbd5e1;
+  text-transform: lowercase;
+  letter-spacing: 0.13em;
+  cursor: pointer;
+  box-shadow: 0 2px 10px #00000033;
+  user-select: none;
+  transition: background 0.25s, color 0.25s, box-shadow 0.25s;
+  border: 1.5px solid transparent;
+}
+
+.cmd-grid span:hover {
+  background: #ffd600;
+  color: #121212;
+  box-shadow: 0 6px 18px #ffd60099;
+  border: 1.5px solid #ffd600;
+}
+
+/* Results area */
+.results-area {
+  margin-top: 2.3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  align-items: center;
+  min-height: 220px;
+  padding-bottom: 20px;
+  border-radius: 16px;
+  background: rgba(26,31,42,0.92);
+  box-shadow: 0 8px 32px #ffd60022;
+  backdrop-filter: blur(3px);
+}
+
+.placeholder {
+  font-style: italic;
+  color: #8a8a8a;
+  font-size: 1.08rem;
+}
+
+/* Site link buttons */
+.site-btn {
+  background: linear-gradient(90deg, #2c3548 70%, #232946 100%);
+  color: #fff;
+  text-decoration: none;
+  width: 320px;
+  padding: 14px 22px;
+  border-radius: 44px;
+  font-size: 1.08rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 12px #00000044;
+  transition: background 0.25s, color 0.25s, transform 0.18s;
+  font-weight: 600;
+  border: 1.5px solid #232946;
+}
+
+.site-btn:hover {
+  background: linear-gradient(90deg, #ffd600 0%, #ffe066 100%);
+  color: #121212;
+  transform: translateY(-3px) scale(1.03);
+  border: 1.5px solid #ffd600;
+}
+
+/* Stars for rating */
+.stars {
+  color: gold;
+  font-size: 1.4rem;
+  user-select: none;
+  text-shadow: 0 2px 8px #ffd60055;
+}
+
+/* Footer */
+footer {
+  margin-top: 3.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  color: #bdbdbd;
+  letter-spacing: 0.01em;
+  text-align: center;
+}
+
+/* Autocomplete dropdown container */
+.autocomplete-items {
+  position: absolute;
+  top: 54px;
+  left: 0;
+  right: 0;
+  background: rgba(31,41,55,0.98);
+  border-radius: 10px;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.7);
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 1000;
+  font-weight: 700;
+  color: #ffd600;
+  backdrop-filter: blur(2px);
+}
+
+/* Each item in autocomplete */
+.autocomplete-items div {
+  padding: 12px 20px;
+  cursor: pointer;
+  transition: background 0.22s, color 0.22s;
+  user-select: none;
+  border-bottom: 1px solid #323d57;
+  font-size: 1.05rem;
+}
+
+.autocomplete-items div:last-child {
+  border-bottom: none;
+}
+
+.autocomplete-items div:hover, .autocomplete-active {
+  background: #ffd600;
+  color: #121212;
+}
+
+/* Responsive for mobile */
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    gap: 10px;
+    padding: 1.1rem 1rem;
+    border-radius: 0 0 14px 14px;
+  }
+
+  nav div:last-child a {
+    margin-left: 0.7rem;
+    font-size: 0.93rem;
+    padding: 5px 10px;
+  }
+  
+  section.command-box {
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+  }
+
+  #commandInput {
+    width: 96%;
+    font-size: 1rem;
+  }
+
+  .site-btn {
+    width: 96%;
+    font-size: 1rem;
+    padding: 12px 10px;
+  }
+
+  .cmd-grid {
+    justify-content: center;
+    gap: 10px;
+  }
+
+  main {
+    padding: 0 0.2rem;
+  }
+}
+/* ...existing code... */

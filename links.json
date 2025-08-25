@@ -1,0 +1,162 @@
+{
+  "/study": [
+    {"name": "Khan Academy", "url": "https://www.khanacademy.org/", "rating": 5},
+    {"name": "Coursera", "url": "https://www.coursera.org/", "rating": 4},
+    {"name": "NCERT", "url": "https://ncert.nic.in/", "rating": 4},
+    {"name": "Byju's", "url": "https://byjus.com/", "rating": 3},
+    {"name": "edX", "url": "https://www.edx.org/", "rating": 3},
+    {"name": "Toppr", "url": "https://www.toppr.com/", "rating": 3},
+    {"name": "Vedantu", "url": "https://www.vedantu.com/", "rating": 2},
+    {"name": "Unacademy", "url": "https://unacademy.com/", "rating": 2}
+  ],
+  "/science": [
+    {"name": "NASA", "url": "https://www.nasa.gov/", "rating": 5},
+    {"name": "Physics Classroom", "url": "https://www.physicsclassroom.com/", "rating": 4},
+    {"name": "Science Daily", "url": "https://www.sciencedaily.com/", "rating": 4},
+    {"name": "National Geographic", "url": "https://www.nationalgeographic.com/", "rating": 4},
+    {"name": "HowStuffWorks", "url": "https://www.howstuffworks.com/", "rating": 3},
+    {"name": "Live Science", "url": "https://www.livescience.com/", "rating": 3},
+    {"name": "Scientific American", "url": "https://www.scientificamerican.com/", "rating": 2},
+    {"name": "Nature", "url": "https://www.nature.com/", "rating": 2}
+  ],
+  "/maths": [
+    {"name": "Brilliant", "url": "https://brilliant.org/", "rating": 5},
+    {"name": "Art of Problem Solving", "url": "https://artofproblemsolving.com/", "rating": 5},
+    {"name": "MathWorld", "url": "https://mathworld.wolfram.com/", "rating": 4},
+    {"name": "Khan Academy Math", "url": "https://www.khanacademy.org/math", "rating": 4},
+    {"name": "Coursera Math", "url": "https://www.coursera.org/browse/math-and-logic", "rating": 3},
+    {"name": "EdX Math", "url": "https://www.edx.org/learn/math", "rating": 3},
+    {"name": "Math is Fun", "url": "https://www.mathsisfun.com/", "rating": 2},
+    {"name": "Wolfram Alpha", "url": "https://www.wolframalpha.com/", "rating": 2}
+  ],
+  "/history": [
+    {"name": "Wikipedia History", "url": "https://en.wikipedia.org/wiki/History", "rating": 5},
+    {"name": "History.com", "url": "https://www.history.com/", "rating": 4},
+    {"name": "BBC History", "url": "https://www.bbc.co.uk/history", "rating": 4},
+    {"name": "Indian History", "url": "https://www.indianmirror.com/history/", "rating": 3},
+    {"name": "Ancient History Encyclopedia", "url": "https://www.ancient.eu/", "rating": 3},
+    {"name": "National Archives", "url": "https://www.archives.gov/", "rating": 2},
+    {"name": "History Today", "url": "https://www.historytoday.com/", "rating": 2},
+    {"name": "World History Encyclopedia", "url": "https://www.worldhistory.org/", "rating": 2}
+  ],
+  "/english": [
+    {"name": "Grammarly Blog", "url": "https://www.grammarly.com/blog/", "rating": 5},
+    {"name": "Purdue OWL", "url": "https://owl.purdue.edu/", "rating": 5},
+    {"name": "British Council Learn English", "url": "https://learnenglish.britishcouncil.org/", "rating": 4},
+    {"name": "Vocabulary.com", "url": "https://www.vocabulary.com/", "rating": 4},
+    {"name": "Coursera English", "url": "https://www.coursera.org/browse/language-learning", "rating": 3},
+    {"name": "BBC Learning English", "url": "https://www.bbc.co.uk/learningenglish", "rating": 3},
+    {"name": "Khan Academy English", "url": "https://www.khanacademy.org/humanities", "rating": 2},
+    {"name": "MIT OpenCourseWare", "url": "https://ocw.mit.edu/", "rating": 2}
+  ],
+  "/facts": [
+    {"name": "Mental Floss", "url": "https://www.mentalfloss.com/", "rating": 5},
+    {"name": "Britannica", "url": "https://www.britannica.com/", "rating": 5},
+    {"name": "Wikipedia Random", "url": "https://en.wikipedia.org/wiki/Special:Random", "rating": 4},
+    {"name": "FactRetriever", "url": "https://www.factretriever.com/", "rating": 4},
+    {"name": "The Fact Site", "url": "https://www.thefactsite.com/", "rating": 3},
+    {"name": "Did You Know?", "url": "https://www.did-you-know.com/", "rating": 3},
+    {"name": "Interesting Facts", "url": "https://www.interestingfacts.org/", "rating": 2},
+    {"name": "Fun Trivia", "url": "https://www.funtrivia.com/", "rating": 2}
+  ],
+  "/tech": [
+    {"name": "TechCrunch", "url": "https://techcrunch.com/", "rating": 5},
+    {"name": "The Verge", "url": "https://www.theverge.com/", "rating": 5},
+    {"name": "W3Schools", "url": "https://www.w3schools.com/", "rating": 4},
+    {"name": "MDN Web Docs", "url": "https://developer.mozilla.org/", "rating": 4},
+    {"name": "Stack Overflow", "url": "https://stackoverflow.com/", "rating": 4},
+    {"name": "GeeksforGeeks", "url": "https://www.geeksforgeeks.org/", "rating": 3},
+    {"name": "FreeCodeCamp", "url": "https://www.freecodecamp.org/", "rating": 3},
+    {"name": "Hacker News", "url": "https://news.ycombinator.com/", "rating": 2}
+  ],
+  "/geography": [
+    {"name": "National Geographic", "url": "https://www.nationalgeographic.com/", "rating": 5},
+    {"name": "CIA World Factbook", "url": "https://www.cia.gov/the-world-factbook/", "rating": 5},
+    {"name": "Geography Realm", "url": "https://www.geographyrealm.com/", "rating": 4},
+    {"name": "World Atlas", "url": "https://www.worldatlas.com/", "rating": 4},
+    {"name": "MapsofWorld", "url": "https://www.mapsofworld.com/", "rating": 3},
+    {"name": "Google Maps", "url": "https://www.google.com/maps", "rating": 3},
+    {"name": "OpenStreetMap", "url": "https://www.openstreetmap.org/", "rating": 2},
+    {"name": "Earth Observatory", "url": "https://earthobservatory.nasa.gov/", "rating": 2}
+  ],
+  "/news": [
+    {"name": "Hindustan Times", "url": "https://www.hindustantimes.com/", "rating": 5},
+    {"name": "The Hindu", "url": "https://www.thehindu.com/", "rating": 5},
+    {"name": "BBC News", "url": "https://www.bbc.com/news", "rating": 4},
+    {"name": "Reuters", "url": "https://www.reuters.com/", "rating": 4},
+    {"name": "CNN", "url": "https://edition.cnn.com/", "rating": 3},
+    {"name": "NDTV", "url": "https://www.ndtv.com/", "rating": 3},
+    {"name": "Al Jazeera", "url": "https://www.aljazeera.com/", "rating": 2},
+    {"name": "Times of India", "url": "https://timesofindia.indiatimes.com/", "rating": 2}
+  ],
+  "/sports": [
+    {"name": "ESPN", "url": "https://www.espn.com/", "rating": 5},
+    {"name": "Cricbuzz", "url": "https://www.cricbuzz.com/", "rating": 5},
+    {"name": "Sportskeeda", "url": "https://www.sportskeeda.com/", "rating": 4},
+    {"name": "Goal.com", "url": "https://www.goal.com/", "rating": 4},
+    {"name": "BBC Sport", "url": "https://www.bbc.com/sport", "rating": 3},
+    {"name": "Yahoo Sports", "url": "https://sports.yahoo.com/", "rating": 3},
+    {"name": "NDTV Sports", "url": "https://sports.ndtv.com/", "rating": 2},
+    {"name": "Olympics.com", "url": "https://olympics.com/", "rating": 2}
+  ],
+  "/quotes": [
+    {"name": "BrainyQuote", "url": "https://www.brainyquote.com/", "rating": 5},
+    {"name": "Goodreads Quotes", "url": "https://www.goodreads.com/quotes", "rating": 5},
+    {"name": "Quotefancy", "url": "https://quotefancy.com/", "rating": 4},
+    {"name": "QuoteMaster", "url": "https://www.quotemaster.org/", "rating": 4},
+    {"name": "Inspirational Quotes", "url": "https://www.inspirational-quotes.info/", "rating": 3},
+    {"name": "Motivation Ping", "url": "https://www.motivationping.com/", "rating": 3},
+    {"name": "ThinkExist", "url": "https://www.thinkexist.com/", "rating": 2},
+    {"name": "Wisdom Quotes", "url": "https://wisdomquotes.com/", "rating": 2}
+  ],
+  "/puzzles": [
+    {"name": "Brilliant Puzzles", "url": "https://brilliant.org/practice/", "rating": 5},
+    {"name": "Puzzle Prime", "url": "https://www.puzzleprime.com/", "rating": 4},
+    {"name": "BrainBashers", "url": "https://www.brainbashers.com/", "rating": 4},
+    {"name": "Riddles.com", "url": "https://www.riddles.com/", "rating": 4},
+    {"name": "Chess Puzzles", "url": "https://www.chess.com/puzzles", "rating": 3},
+    {"name": "Logic Puzzles", "url": "https://www.logic-puzzles.org/", "rating": 3},
+    {"name": "Math Puzzles", "url": "https://www.mathpuzzle.com/", "rating": 2},
+    {"name": "IQ Test Labs", "url": "https://www.iqtestlabs.com/", "rating": 2}
+  ],
+  "/history-facts": [
+    {"name": "HistoryExtra", "url": "https://www.historyextra.com/", "rating": 5},
+    {"name": "Today in History", "url": "https://www.onthisday.com/", "rating": 5},
+    {"name": "Ancient History Encyclopedia", "url": "https://www.ancient.eu/", "rating": 4},
+    {"name": "History Today", "url": "https://www.historytoday.com/", "rating": 4},
+    {"name": "BBC History", "url": "https://www.bbc.co.uk/history", "rating": 3},
+    {"name": "Timeline.com", "url": "https://www.timeline.com/", "rating": 3},
+    {"name": "Fact Monster", "url": "https://www.factmonster.com/", "rating": 2},
+    {"name": "World History Encyclopedia", "url": "https://www.worldhistory.org/", "rating": 2}
+  ],
+  "/projects": [
+    {"name": "GitHub Explore", "url": "https://github.com/explore", "rating": 5},
+    {"name": "Awesome Python", "url": "https://github.com/vinta/awesome-python", "rating": 5},
+    {"name": "FreeCodeCamp Projects", "url": "https://github.com/freeCodeCamp/freeCodeCamp", "rating": 4},
+    {"name": "Open Source Society University", "url": "https://github.com/ossu", "rating": 4},
+    {"name": "Project Euler", "url": "https://projecteuler.net/", "rating": 3},
+    {"name": "Kaggle", "url": "https://www.kaggle.com/", "rating": 3},
+    {"name": "LeetCode", "url": "https://leetcode.com/", "rating": 2},
+    {"name": "HackerRank", "url": "https://www.hackerrank.com/", "rating": 2}
+  ],
+  "/ai": [
+    {"name": "OpenAI", "url": "https://openai.com/", "rating": 5},
+    {"name": "DeepMind", "url": "https://deepmind.com/", "rating": 5},
+    {"name": "Google AI", "url": "https://ai.google/", "rating": 4},
+    {"name": "MIT AI", "url": "https://www.csail.mit.edu/research/artificial-intelligence", "rating": 4},
+    {"name": "AI Weekly", "url": "https://aiweekly.co/", "rating": 3},
+    {"name": "Towards AI", "url": "https://towardsai.net/", "rating": 3},
+    {"name": "KDnuggets", "url": "https://www.kdnuggets.com/", "rating": 2},
+    {"name": "Analytics Vidhya", "url": "https://www.analyticsvidhya.com/", "rating": 2}
+  ],
+  "/coding": [
+    {"name": "GeeksforGeeks", "url": "https://www.geeksforgeeks.org/", "rating": 5},
+    {"name": "W3Schools", "url": "https://www.w3schools.com/", "rating": 5},
+    {"name": "MDN Web Docs", "url": "https://developer.mozilla.org/", "rating": 4},
+    {"name": "FreeCodeCamp", "url": "https://www.freecodecamp.org/", "rating": 4},
+    {"name": "HackerRank", "url": "https://www.hackerrank.com/", "rating": 3},
+    {"name": "LeetCode", "url": "https://leetcode.com/", "rating": 3},
+    {"name": "Codewars", "url": "https://www.codewars.com/", "rating": 2},
+    {"name": "Codeforces", "url": "https://codeforces.com/", "rating": 2}
+  ]
+}
